@@ -1,0 +1,61 @@
+accp
+156516
+编辑命令：
+   pwd: 查看用户命令
+   Ls: 查看当前用户的文件
+   mkdir: 创建文件夹 (Ls:查看创建的文件夹)
+   Ls -L:列表显示,选项命令  
+   cd 文件夹名 /: 进入文件夹
+   touch: 创建文件 如:a.txt(Ls:查看创建的文件)
+   vi: 编辑命令(加文件名)-> i: 进入文件
+   ctrl+c: 退出
+   :wq: 保存并退出
+   gedit + 文件名.txt:用记事本的方式打开某个文件
+
+拷贝命令: cp 原文件名 新文件名
+删除命令: rm 文件名
+移动命令: mv 文件名 /
+改名命令: mv 原文件名 新文件名
+删除文件命令: rm -rf 文件名.txt
+查看当前id:ifconfig
+切换用户: su root
+解压文件:tar -zxvf
+配置环境变量:gedit /home/dwb/.bash_profile
+声明jdk目录路径
+1:export JAVA_HOME=地址
+2:export PATH=$JAVA_HOME/bin:$PATH
+激活环境变量:source /home/dwb/.bash_profile ->java - version
+重启命令:init 6
+安装eclips
+su root
+cd /usr/
+ls
+tar -zxvf 需解压的文件
+
+修改快捷键:window->搜keys->content Assist ->ctrl+alt
+清屏: clear
+tomcat：
+tar -zxvf 需解压的文件
+ls
+mv tomcat(apa+tab) tomcat8
+ls
+cd bin
+ls
+
+
+启动tomcat:sh startup.sh
+
+
+查看tomcat进程号:tomcat:ps -ef|grep tomcat
+
+停止tomcat:kill -9 4609(进程号)
+
+cd ../
+ls
+查看日志:tail -f logs/catalina.out
+
+ctrl+c
+
+停止服务(停止防火墙):systemctl stop firewalld.service
+禁止服务(禁止防火墙):systemctl disable firewalld.service
+   
