@@ -58,4 +58,4 @@ ctrl+c
 
 停止服务(停止防火墙):systemctl stop firewalld.service
 禁止服务(禁止防火墙):systemctl disable firewalld.service
-   
+   黄金客户尽快回家后
